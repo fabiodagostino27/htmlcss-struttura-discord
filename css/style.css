@@ -31,17 +31,13 @@ header nav {
     padding: 10px;
 }
 
-nav figure {
+nav figure, nav div {
     flex-basis: 10%;
 }
 
 nav ul {
     list-style-type: none;
     flex-basis: 40%;
-}
-
-nav > div {
-    flex-basis: 5%;
 }
 
 nav figure, nav ul, nav > div {
@@ -117,6 +113,49 @@ main section div {
     flex-basis: 60%;
     width: 70%;
 }
+
+/* Footer */
+footer {
+    padding: 5% 8%;
+}
+
+footer .footer-top {
+    height: 80%;
+    justify-content: space-between;
+    gap: 5%;
+    border-bottom: 1px solid gray;
+}
+
+footer .footer-info {
+    flex-basis: 20%;
+    height: 50%;
+    background-color: blue;
+}
+
+footer .footer-lists {
+    height: 80%;
+    flex-basis: 80%;
+    justify-content: space-between;
+}
+
+footer ul {
+    background-color: blue;
+    flex-basis: 15%;
+    height: 100%;
+}
+
+footer .footer-bottom {
+    height: 20%;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+
+footer .footer-bottom div{
+    width: 10%;
+    height: 90%;
+    background-color: white;
+}
+
 
 
 
