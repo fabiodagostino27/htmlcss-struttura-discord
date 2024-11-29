@@ -58,10 +58,14 @@ header .title {
 /* Main */
 main .small-section {
     height: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
 }
 
 #big-section {
     height: 40%;
+    
 }
 
 main section:nth-child(odd) {
@@ -72,6 +76,47 @@ main section:nth-child(even) {
     background-color: #F6F6F6;
 }
 
+main .small-section figure {
+    flex-basis: 30%;
+}
+
+main .small-section div {
+    flex-basis: 25%;
+}
+
+main .small-section div, main .small-section figure {
+    height: 65%;
+}
+
+main section figure {
+    background-color: black;
+}
+
+main section div {
+    background-color: red;
+}
+
+#big-section {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#big-section h3 {
+    flex-basis: 10%;
+    width: 65%;
+    background-color: red;
+}
+
+#big-section div {
+    flex-basis: 10%;
+    width: 40%;
+}
+
+#big-section figure {
+    flex-basis: 60%;
+    width: 70%;
+}
 
 
 
