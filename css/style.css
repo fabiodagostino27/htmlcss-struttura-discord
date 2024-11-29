@@ -14,8 +14,8 @@ header {
 }
 
 main {
-    height: 2000px;
-    background-color: gray;
+    height: 3000px;
+    /* background-color: gray; */
 }
 
 footer {
@@ -53,6 +53,23 @@ header .title {
     height: 50%;
     margin: 8% auto 2%;
     background-color: white;
+}
+
+/* Main */
+main .small-section {
+    height: 20%;
+}
+
+#big-section {
+    height: 40%;
+}
+
+main section:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+
+main section:nth-child(even) {
+    background-color: #F6F6F6;
 }
 
 
